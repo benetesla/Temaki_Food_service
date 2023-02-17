@@ -126,6 +126,7 @@ img {
     background-color: #f36868;
     margin: 10px auto;
 }
+
 .title::before{
     content: '';
     display: block;
