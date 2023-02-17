@@ -121,7 +121,7 @@ img {
 .title::after{
     content: '';
     display: block;
-    width: 80px;
+    width: 180px;
     height: 5px;
     background-color: #f36868;
     margin: 10px auto;
@@ -129,7 +129,7 @@ img {
 .title::before{
     content: '';
     display: block;
-    width: 80px;
+    width: 180px;
     height: 5px;
     background-color: #f36868;
     margin: 10px auto;
