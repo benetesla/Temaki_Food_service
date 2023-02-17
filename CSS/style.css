@@ -16,19 +16,80 @@ body{
     left: 0;
     z-index: 999;
     position: sticky;
-
 }
 .navbar {
-    background-image: linear-gradient(to right, #f36868, #f36868);
+    background-image: linear-gradient(to right, #f36868, #eb6060);
+}
+.navbar .navbar-brand {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.navbar-toggler {
+    outline:  none !important;
 }
 i {
     color: #fff;
     font-size: 1.5rem;
-    padding: 0 1rem;
+    padding: 0 2rem;
     cursor: pointer;
+    margin: 0 1rem;
+}
+i:hover {
+    color: #2e2121;
 }
 img {
-    width: 2.2rem;
-    height: 2.2rem;
-    border-radius: 50%;
+    width: 3.9rem;
+    height: 3.3rem;
+    
+}
+
+#banner{
+    background-image: linear-gradient(to right, #f36868, #f74545);
+    color: #fff;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.banner_Title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+#produto1{
+    background-image: url(../images/Produto1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+    border-radius: 5px;
+}
+.BannerCard{
+    width: 45px;
+    height: 45px;
+}
+
+#LOGOTEM{
+    width: 90%;
+    height: 90%;
+    background-image: url(../images/LOGOTEM.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+#banner .btn{
+    background-color: #fff;
+    color: #f36868;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
