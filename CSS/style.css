@@ -29,6 +29,11 @@ body{
 .navbar-toggler {
     outline:  none !important;
 }
+#Logo{
+    width: 50ox;
+    height: 50px;    
+    border-radius: 55px;
+}
 i {
     color: #fff;
     font-size: 1.5rem;
@@ -56,31 +61,10 @@ img {
     font-weight: 600;
     margin-top: 100px;
 }
-#produto1{
-    background-image: url(../images/Produto1.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 150px;
-    border-radius: 5px;
-    border-radius: 5px;
-}
 .BannerCard{
     width: 45px;
     height: 45px;
-}
-
-#LOGOTEM{
-    width: 90%;
-    height: 90%;
-    background-image: url(../images/LOGOTEM.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 5px;
+    border-radius: 50%;
 }
 #banner .btn{
     background-color: #fff;
@@ -93,3 +77,53 @@ img {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+#LOGOTEM{
+    width: 90%;
+    height: 90%;
+    background-image: url(../images/LOGOTEM.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+#produto1{
+    background-image: url(../images/Produto1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+    border-radius: 5px;
+}
+
+#Cardapio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+   
+}
+.card{
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+@media screen and (max-width: 768px) {
+    #Cardapio{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+    
