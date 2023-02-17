@@ -1,39 +1,45 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     background-color: #f1f1f1;
     font-family: 'Open Sans', sans-serif;
 }
-#nav-bar{
+
+#nav-bar {
     background-color: #f36868;
-    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     height: 60px;
     width: 100%;
-    position: fixed;
     top: 0;
     left: 0;
     z-index: 999;
     position: sticky;
 }
+
 .navbar {
     background-image: linear-gradient(to right, #f36868, #eb6060);
 }
+
 .navbar .navbar-brand {
     color: #fff;
     font-size: 1.5rem;
     font-weight: 600;
     letter-spacing: 1px;
 }
+
 .navbar-toggler {
-    outline:  none !important;
+    outline: none !important;
 }
-#Logo{
+
+#Logo {
     width: 50ox;
-    height: 50px;    
+    height: 50px;
     border-radius: 55px;
 }
+
 i {
     color: #fff;
     font-size: 1.5rem;
@@ -41,32 +47,37 @@ i {
     cursor: pointer;
     margin: 0 1rem;
 }
+
 i:hover {
     color: #2e2121;
 }
+
 img {
     width: 3.9rem;
     height: 3.3rem;
-    
+
 }
 
-#banner{
+#banner {
     background-image: linear-gradient(to right, #f36868, #f74545);
     color: #fff;
     padding-top: 5%;
     padding-bottom: 5%;
 }
-.banner_Title{
+
+.banner_Title {
     font-size: 40px;
     font-weight: 600;
     margin-top: 100px;
 }
-.BannerCard{
+
+.BannerCard {
     width: 155px;
     height: 155px;
     border-radius: 50%;
 }
-#banner .btn{
+
+#banner .btn {
     background-color: #fff;
     color: #f36868;
     border: none;
@@ -77,7 +88,8 @@ img {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-#LOGOTEM{
+
+#LOGOTEM {
     width: 90%;
     height: 90%;
     background-image: url(../images/LOGOTEM.png);
@@ -88,7 +100,8 @@ img {
     margin-bottom: 20px;
     border-radius: 5px;
 }
-#produto1{
+
+#produto1 {
     background-image: url(../images/Produto1.png);
     background-size: cover;
     background-position: center;
@@ -99,26 +112,28 @@ img {
     border-radius: 5px;
 }
 
-#Cardapio{
+#Cardapio {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
     margin-bottom: 20px;
-   
-   
+
+
 }
-.card{
+
+.card {
     width: 300px;
     height: 300px;
     background-color: #fff;
     border-radius: 5px;
     margin: 10px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
-.title::after{
+
+.title::after {
     content: '';
     display: block;
     width: 180px;
@@ -127,21 +142,71 @@ img {
     margin: 10px auto;
 }
 
-.title::before{
+.title::before {
     content: '';
     display: block;
     width: 180px;
     height: 5px;
     background-color: #f36868;
     margin: 10px auto;
+}
+
+#Carrousel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+#Carrousel img {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 0 auto;
+}
+
+#Carrousel button {
+    background-color: #f3c0c0;
+}
+
+.stars {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    padding: -400px;
+}
+
+.stars i {
+    color: #f36868;
+    font-size: 1.5rem;
+    padding: 0.1rem;
+    margin: 5px;
+    cursor: pointer;
+    margin: 0 1rem;
+}
+
+footer {
+    background-color: #f36868;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
 }
 
 @media screen and (max-width: 768px) {
-    #Cardapio{
+    #Cardapio {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 }
-    
